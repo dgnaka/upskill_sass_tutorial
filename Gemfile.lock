@@ -174,7 +174,6 @@ GEM
       execjs (>= 0.3.0, < 3)
     warden (1.2.7)
       rack (>= 1.0)
-    wdm (0.1.1)
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -201,7 +200,7 @@ DEPENDENCIES
   listen (= 3.0.5)
   pg (= 0.18.4)
   puma (= 3.4.0)
-  rails (= 5.0.0)
+  rails
   sass-rails (= 5.0.6)
   spring
   spring-watcher-listen (= 2.0.0)
@@ -209,11 +208,10 @@ DEPENDENCIES
   turbolinks (= 5.0.0)
   tzinfo-data
   uglifier (= 3.0.0)
-  wdm (>= 0.1.0)
   web-console
 
 RUBY VERSION
-   ruby 2.3.3p222
+   ruby 2.4.1p111
 
 BUNDLED WITH
    1.15.1

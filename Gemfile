@@ -40,6 +40,12 @@ gem 'hirb', '0.7.3'
 # Use Devise for user authentication
 gem 'devise'
 
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+
+# User Figaro for ENV variables
+gem 'figaro', '1.1.1'
+
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 group :development, :test do
